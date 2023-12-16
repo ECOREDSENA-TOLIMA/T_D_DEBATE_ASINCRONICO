@@ -32,41 +32,7 @@ const router = new VueRouter({
           component: () =>
             import(/* webpackChunkName: "tema1" */ '../views/Tema1.vue'),
         },
-        {
-          path: 'tema2',
-          name: 'tema2',
-          component: () =>
-            import(/* webpackChunkName: "tema2" */ '../views/Tema2.vue'),
-        },
-        {
-          path: 'tema3',
-          name: 'tema3',
-          component: () =>
-            import(/* webpackChunkName: "tema3" */ '../views/Tema3.vue'),
-        },
       ],
-    },
-    {
-      path: '/actividad',
-      name: 'actividad',
-      component: () =>
-        import(/* webpackChunkName: "actividad" */ '../views/Actividad.vue'),
-    },
-    {
-      path: '/glosario',
-      name: 'glosario',
-      component: () =>
-        import(
-          /* webpackChunkName: "glosario" */ '../../node_modules/ecored-base-pkg/src/views/Glosario.vue'
-        ),
-    },
-    {
-      path: '/complementario',
-      name: 'complementario',
-      component: () =>
-        import(
-          /* webpackChunkName: "comple" */ '../../node_modules/ecored-base-pkg/src/views/Complementario.vue'
-        ),
     },
     {
       path: '/referencias',
@@ -75,12 +41,6 @@ const router = new VueRouter({
         import(
           /* webpackChunkName: "referencias" */ '../../node_modules/ecored-base-pkg/src/views/Referencias.vue'
         ),
-    },
-    {
-      path: '/sintesis',
-      name: 'sintesis',
-      component: () =>
-        import(/* webpackChunkName: "sintesis" */ '../views/sintesis.vue'),
     },
     {
       path: '/creditos',
