@@ -51,7 +51,7 @@
                 span 3
               | Defender los argumentos propios ante las refutaciones recibidas.
         p.mb-3 Dentro de los participantes, se encuentra un público imparcial que puede ejercer como “juez”. Las funciones del juez en algunos casos, es determinar el equipo ganador. La participación del jurado no es obligatoria, sin embargo, su presencia es muy importante al menos por dos razones. En primer lugar, el jurado es un incentivo que hace el ejercicio de debate más entretenido para los participantes. En segundo lugar, el jurado proporciona a los participantes una evaluación externa y consejos útiles para mejorar su desempeño. En los casos de debate educativo, en la mayoría de casos el docente ejerce este rol.
-        p.mb-3 #[b Formato:] es aquel que determinará la estructura de la actividad, de acuerdo con el contexto, necesidades y objetivo educativo propuesto por el instructor. Acá se plantean los parámetros de participación dentro del debate, la participación no es en tiempo real, esto proporciona oportunidades para que los estudiantes refinan su comprensión del tema durante un período más largo. Este puede ser a través de un foro, o una herramienta web. 
+        p.mb-3 #[b Formato:] es aquel que determinará la estructura de la actividad, de acuerdo con el contexto, necesidades y objetivo educativo propuesto por el instructor. Acá se plantean los parámetros de participación dentro del debate, la participación no es en tiempo real, esto proporciona oportunidades para que los estudiantes refinan su comprensión del tema durante un período más largo. Este puede ser a través de un foro, o una herramienta #[em Web]. 
       .col-12.col-md-5
         img(src='@/assets/curso/temas/img-2.png', alt='')
 
@@ -93,8 +93,8 @@
           .col-md-3.col-lg-2
             figure
               img(src='@/assets/curso/temas/img-6.png', alt='')
-      .tarjeta.color-primario.p-4(titulo="Cite las fuentes")
-        h4 Cite las fuentes
+      .tarjeta.color-primario.p-4(titulo="Citar las fuentes")
+        h4 Citar las fuentes
         .row
           .col-md-9.col-lg-9.mb-4
             p Si se toman referentes para ratificar opiniones, se deben citar según las normas APA, séptima edición.
@@ -132,7 +132,7 @@
             | Evitar usar mayúsculas sostenida, porque se puede interpretar como gritar.
           li.mb-1.d-block
             span.icon ✔ 
-            | Cita las fuentes de información y atribuciones. 
+            | Citar las fuentes de información y atribuciones. 
     
     Separador
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -162,7 +162,7 @@
                 i.fas.fa-caret-up.fa-2x.me-3(style="color:#B40E0E")
                 i.fas.fa-caret-down.fa-2x.me-3(style="color:#B40E0E")
               h5.mb-0 #[em Appgree]
-            p Es una plataforma que ofrece la posibilidad de realizar debates y votaciones a tiempo real con una particularidad, el recuento de votos es muy rápido.
+            p Es una plataforma que ofrece la posibilidad de realizar debates y votaciones en tiempo real con una particularidad, el recuento de votos es muy rápido.
       .col-sm-6.col-xl-3.col-md-5.mb-4.mb-xl-0(data-aos="fade-right")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
